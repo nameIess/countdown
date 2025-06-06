@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://r4.wallpaperflare.com/wallpaper/142/751/831/landscape-anime-digital-art-fantasy-art-wallpaper-9b468c3dc3116f4905f43bc9cddc0cf0.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 0 8%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  justify-content: center; /* Align items to the top */
+}
+
+.logo {
+  width: 100px;
+  padding: 0px 0px;
+  cursor: pointer;
+  justify-content: top;
+}
+
+.content {
+  color: white;
+  text-align: left; /* Align text to the left */
+  font-weight: 100;
+}
+
+.content h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.content h1 span {
+  color: #ff7e5f;
+}
+
+.content .button {
+  margin-top: 17px;
+  display: block;
+  width: 120px;
+  height: 30px;
+  line-height: 24px;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #b72525;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  cursor: pointer;
+  background: none;
+  overflow: hidden;
+}
+
+.content .button span {
+  position: relative;
+  z-index: 2;
+}
+
+.content .button:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff7e5f;
+  transition: all .35s;
+}
+
+.content .button:hover {
+  color: #ffffff;
+}
+
+.content .button:hover:after {
+  width: 100%;
+}
+
+.launch-timer {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+}
+
+.launch-timer div {
+  flex-basis: 150px;
+}
+
+.launch-timer div p {
+  font-size: 60px;
+  margin-bottom: -14px;
+}
+
+/* .bn13 {
+  display: inline-block;
+  padding: 0.65em 1.6em;
+  border: 3px solid #ffffff;
+  margin: 0.3em;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+  animation: bn13bouncy 5s infinite linear;
+  position: relative;
+  margin: auto; /* Center horizontally 
+}
+
+.bn13:hover {
+  background-color: white;
+  color: #000000;
+}
+
+@keyframes bn13bouncy {
+  0% {
+    top: 0em;
+  }
+  40% {
+    top: 0em;
+  }
+  43% {
+    top: -0.9em;
+  }
+  46% {
+    top: 0em;
+  }
+  48% {
+    top: -0.4em;
+  }
+  50% {
+    top: 0em;
+  }
+  100% {
+    top: 0em;
+  }
+} 
+*/
