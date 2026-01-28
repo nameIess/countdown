@@ -1,4 +1,4 @@
-var count_down_date = "Jan 1, 2026 00:00:00"; 
+var count_down_date = "Jan 1, 2028 00:00:00"; 
 // Add your date here
 var countDownDate = new Date(count_down_date);
 var x = setInterval(function() {
